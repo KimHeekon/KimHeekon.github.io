@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="관악의 베스트 드라이버 : 12년차 베테랑 방정호">
+    <meta property="og:description" content="관악의 베스트 드라이버 : 12년차 베테랑 방정호">
+    <meta property="og:image" content="https://naeilsnu.github.io/og.jpg">
+    <title>관악의 베스트 드라이버 : 12년차 베테랑 방정호</title>
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/rellax@1.7.1/rellax.min.js" integrity="sha256-D8Gs+q912m9K1KjzTzBQas+zR0oQtxQEZDHh8NVVDx8=" crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,500,900">
+    <style>
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+        color: #1b0000;
+        background-image: linear-gradient(to bottom, rgb(190,211,221), rgb(240,240,224));
+        background-color: #efebe9;
+      }
+      a, a:link, a:visited, a:hover, a:active {
+        color: #1f3480;
+        text-decoration: none;
+      }
+      img {
+        width: 100%;
+      }
+      h1 {
+        font-size: 36px;
+        font-weight: 100;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+        transition-delay: 0, 0;
+      }
+      p {
+        font-size: 17px;
+        padding-right: 1.5px;
+        padding-left: 3px;
+      }
+      p:not(.cta), .kard {
+        transition-delay: 0.15s, 0.15s;
+      }
+      p.cta {
+        margin-top: 24px;
+        transition-delay: 0.3s, 0.3s;
+      }
+      .animate {
+        opacity: 0;
+        transform: translateY(25px);
+        transition-property: opacity, transform;
+        transition-duration: 1.2s, 1.4s;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1), cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        will-change: opacity, transform;
+      }
+      .reveal .animate {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+      .kard {
+        position: relative;
+        width: 100%;
+        height: 90px;
+        padding-top: 30px;
+        padding-left: 80px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 4px;
+        box-shadow: 0 3px 3px -2px rgba(0,0,0,.2),0 3px 4px 0 rgba(0,0,0,.14),0 1px 8px 0 rgba(0,0,0,.12);
+      }
+      .kard__icon {
+        position: absolute;
+        top: 27px;
+        left: 27px;
+        width: 36px;
+        height: 36px;
+      }
+      .kard__info {
+        position: absolute;
+        top: 32px;
+        right: 24px;
+        font-size: 15px;
+        font-weight: 300;
+        opacity: 0.5;
+      }
+      .cta {
+        font-weight: 500;
+        text-align: center;
+        color: #7200ca;
+      }
+      .rellax {
+        will-change: transform;
+      }
+      .fadeout {
+        will-change: opacity;
+        transition: opacity 400ms cubic-bezier(.4, 0, .6, 1);
+      }
+      .fadeout--invisible {
+        opacity: 0;
+      }
+      .rellax.fadeout {
+        will-change: transform, opacity;
+      }
+      .hidden {
+        display: none;
+      }
+      .toggle-xxs__toggled {
+        display: none;
+      }
+      @media (max-width: 320px) {
+        .toggle-xxs__toggled {
+          display: inline;
+        }
+        .toggle-xxs__default {
+          display: none;
+        }
+      }
+      #scaledown {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform-origin: center bottom;
+        will-change: transform, top;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="height: 100vh; padding-top: 15vh;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+            <div style="width: 100%; height: 0; overflow: visible; position: relative; padding-top: 166.667%;">
+              <img id="scaledown" src="img/hero.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section style="padding-top: 300px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+              <div id="fadeout-1" class="rellax" data-rellax-speed="1">
+                <h1 class="animate"><span style="font-weight: 900;">관악의 베스트 드라이버</span></h1>
+                <h4 class="animate"><span style="font-weight: 450;">12년차 베테랑 방정호</span></h4>
+                <p></p>
+                <p class="animate">학기가 시작되면 학내 순환셔틀은 분주해진다. <br>학내·외를 구석구석 다니며 부지런히 학생을 싣고 날라야 하기 때문이다. <br>그렇게 학생들이 셔틀버스를 타고 각자의 정류장을 찾아가는 동안, 묵묵히 버스를 지키는 이들이 있다. <br>총무과 운전반에 속해 있는 20여 명의 기사와 20여 명의 임대차량 운전원이다. <br>그중에서도 12년째 서울대에서 근무 중인 총무과 운전반 방정호 씨를 만나 그의 이야기를 들어봤다.</p>
+                <p class="animate cta">
+                  <a href="http://www.snunews.com/news/articleView.html?idxno=18460">기사 전문 보기 &gt;</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer style="height: 100vh; margin-top: 140px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+            <div style="padding-top: 12.5vh;">
+              <div style="position:relative;height:0;padding-bottom:56.24%"><iframe src="https://www.youtube.com/embed/RjT3NQ-3w1U?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
